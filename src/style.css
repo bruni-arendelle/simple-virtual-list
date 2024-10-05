@@ -1,0 +1,14 @@
+.virtual-list {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.virtual-list__item {
+  flex: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
